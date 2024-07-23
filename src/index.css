@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square{
+  background-color: #f0f0f0;
+  width: 100px;
+  height: 100px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.board{
+  display: flex;
+ flex-wrap: wrap;
+ width: 300px;
+ height: 300px;
+}
+
+.status{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.game{
+  display: flex;
+}
+
+.game-info{
+  margin-left: 20px;
+}
